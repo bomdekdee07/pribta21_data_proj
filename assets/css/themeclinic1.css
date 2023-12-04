@@ -1,0 +1,220 @@
+<style>
+
+
+.proj-head{
+  max-height:150px;
+  background-color:#EEE;
+  align-items: center;
+}
+
+.proj-list-item{
+	padding:20px;
+	min-width:150px;
+	max-width:150px;
+	border: 1px solid black;
+	min-height:100px;
+	max-height:300px;
+	margin:20px;
+}
+
+
+.proj-label{
+	padding-bottom:0px;
+	font-size:10px;
+  font-weight:bold;
+}
+.proj-label-btn{
+	padding-bottom:0px;
+	font-size:12px;
+  opacity:0.1;
+}
+
+
+.inpproj{
+  font-size: smaller;
+  width:100%;
+}
+.b-txt{
+  font-weight:bold;;
+}
+.colhead{
+  font-weight:bold;
+  font-size:12px;
+  border:1px;
+  color:white;
+  align-items: center;
+}
+
+.colid{
+  font-weight:bold;
+  font-size:12px;
+  color:blue;
+
+}
+
+.col40{
+  max-width: 40px;
+  min-width: 40px;
+  padding:5px;
+}
+.col50{
+  max-width: 50px;
+  min-width: 50px;
+  padding:5px;
+}
+.col60{
+  max-width: 60px;
+  min-width: 60px;
+  padding:5px;
+}
+.col70{
+  max-width: 70px;
+  min-width: 70px;
+  padding:5px;
+}
+.col80{
+  max-width: 80px;
+  min-width: 80px;
+  padding:5px;
+}
+.col100{
+  max-width: 100px;
+  min-width: 100px;
+  padding:5px;
+}
+.col150{
+  max-width: 150px;
+  min-width: 150px;
+  padding:5px;
+}
+.col200{
+  max-width: 200px;
+  min-width: 200px;
+  padding:5px;
+}
+.col400{
+  max-width: 200px;
+  min-width: 200px;
+  padding:5px;
+}
+
+.row35{
+  max-height: 35px;
+  min-height: 35px;
+}
+.row35-a{
+  max-height: 60px;
+  min-height: 35px;
+}
+
+.row60{
+  max-height: 60px;
+  min-height: 60px;
+}
+
+.row-v-mid{
+  align-items: center;
+  vertical-align: middle;
+}
+.row-v-top{
+  align-items: center;
+  vertical-align: top;
+}
+
+.bt-line{
+  border-bottom:1px solid grey;
+}
+
+
+.p-btn{
+	cursor: pointer;
+	vertical-align: -25%
+}
+.p-btn:hover{
+	filter:brightness(80%);
+  font-weight: bold;
+}
+
+
+
+.p-btnvisit{
+  color:white;
+  background-color: #0066CC;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+
+
+
+.p-btnsearch{
+  color:#0066CC;
+/*  background-color: white; */
+  cursor: pointer;
+
+}
+.p-btnsearch:hover{
+	filter:brightness(80%);
+}
+
+.btnclose{
+  color:red;
+  background-color: white;
+  cursor: pointer;
+}
+
+.pbtn-select{
+  color:white;
+  background-color: blue;
+  cursor: pointer;
+}
+
+
+
+
+.bg-mdark1{
+    background-color:#1A7979;
+}
+.bg-mdark2{
+  background-color:#23A0A0;
+}
+.bg-mdark3{
+  background-color:#29C0C0;
+}
+.bg-mdark4{
+  background-color:#62e4e4;
+}
+
+.bg-msoft1{
+  background-color:#E4FAFA;
+}
+
+.bg-msoft2{
+  background-color:#C2F3F3;
+}
+
+.bg-msoft3{
+  background-color:#96EBEB;
+}
+
+
+/* second color */
+.bg-sdark1{
+  background-color:#8C0000;
+}
+
+.bg-sdark2{
+  background-color:#DB0000;
+}
+
+.bg-ssoft1{
+  background-color:#FFE8E8;
+}
+
+.bg-ssoft2{
+  background-color:#FFCCCC;
+}
+
+
+
+</style>

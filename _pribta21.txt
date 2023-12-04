@@ -1,0 +1,105 @@
+//SESSION
+s_id
+s_name
+clinic_id
+s_email
+sesskey
+room_no
+room_detail
+
+section_id -> array()  $_SESSION["section_id"][{sectionname}]
+
+sysadmin -> system admin load once in main menu. must have section_id D99
+projadmin -> project admin load once in main menu
+
+
+//Width and Height -> h,w,hmi,wmi
+xxs = 10
+xs = 20
+ss = 30
+s = 50
+ms = 60
+sm = 80
+m = 100
+l = 150
+xl = 200
+xxl =300
+xxxl = 500
+
+
+
+//Font
+fs-xs = 10px
+fs-s = 12px
+fs-m = 16px
+fs-l = 20px
+fs-xl = 30px
+fs-xxl = 50px
+fs-xxxl = 100px
+
+//Row 
+row-hover	-Hightlight hover row
+row-color	-Make row color on different row
+row-color-2	-Make row color on different row Set 2
+roundcorner	-Make corner of the object Round 8px
+fabtn		-Pointer + Highlight on hover
+bigcheckbox	-Double checkbox size
+fill-box	-Make the textbox or control fill the parent
+mar-topdown -Make the margin top and down use with fill-box
+copy-to-clip -copy span text to clipboard. *Used with span only
+f-border	-put the border 1px solid black
+bg-error 	-put background color to red - For error notify.
+btn-selected -Highlight button on selected
+
+//Using Toggle Bar
+<div class='fl-wrap-row'>
+	<div class='fl-fix w-l left-bar'>
+	</div>
+	<div class='fl-fix toggle-bar'>
+	</div>
+	<div class='fl-wrap-col right-bar'>
+	</div>
+</div>
+
+
+
+showDialog(sUrl,"Section permission management : "+sName,"480","820","",
+function(sResult){
+	//CLose function
+	if(sResult=="1"){
+	}
+},false,function(){
+	//Load Done Function
+});
+
+
+Make table sortable
+===================
+		<div class='row-header'>
+			<div class='btn-sort-col' data-sort='{class-col-name}'>
+				Name
+			</div>
+			<div>
+				Description
+			</div>
+		</div>
+		<div class='row-body'>
+			<div class='row-data' >
+				<div class='{class-col-name}'>
+					Nameeeee
+				</div>
+				<div>
+					Descriptionnnnnnn
+				</div>
+			</div>
+		</div>
+
+.row-header และ .row-body ต้องอยู่ level เดียวกัน
+.btn-sort-col ต้องใส่ data-sort ด้วยเสมอ
+{class-col-name } จะต้องเป็น class name ของ column ที่เราจะเรียงลำดับ
+
+
+staff_section
+D05 = ต้องเป็น หมอเสมอ
+D06 = ต้องเป็น counselor เสมอ
+D99	= System Admin เสมอ

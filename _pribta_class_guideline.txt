@@ -1,0 +1,27 @@
+xxs = 10
+xs = 20
+ss = 30
+s = 50
+sm = 80
+m = 100
+l = 150
+xl = 200
+xxl =300
+xxxl = 500
+
+//Font
+fs-xs = 10px
+fs-s = 12px
+fs-m = 16px
+fs-l = 20px
+fs-xl = 30px
+fs-xxl = 50px
+fs-xxxl = 100px
+
+//Row 
+row-hover	-Hightlight hover row
+row-color	-Make row color on different row
+row-color-2	-Make row color on different row Set 2
+roundcorner	-Make corner of the object Round 8px
+fabtn		-Pointer + Highlight on hover
+bigcheckbox	-Double checkbox size
